@@ -17,3 +17,5 @@ export type SearchComparator<T> = (a: T) => SearchComparisonResult;
  * Value and index of target elem
  */
 export type SearchResult<T> = [T, number] | [null, -1];
+
+export type PalindromeFn = (str: string) => boolean;
