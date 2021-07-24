@@ -19,3 +19,6 @@ export type SearchComparator<T> = (a: T) => SearchComparisonResult;
 export type SearchResult<T> = [T, number] | [null, -1];
 
 export type PalindromeFn = (str: string) => boolean;
+
+export type BracketsDefinition = readonly [string, string];
+export type CheckBracketsFn = (str: string) => boolean;
