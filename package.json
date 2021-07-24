@@ -23,8 +23,10 @@
   "homepage": "https://github.com/d3m1d0v/algorithms#readme",
   "devDependencies": {
     "@types/chai": "4.2.11",
+    "@types/chai-spies": "1.0.3",
     "@types/mocha": "8.0.0",
     "chai": "4.2.0",
+    "chai-spies": "1.0.0",
     "mocha": "8.0.1",
     "nyc": "15.1.0",
     "ts-node": "8.10.2",
